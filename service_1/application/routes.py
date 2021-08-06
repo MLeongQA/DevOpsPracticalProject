@@ -10,7 +10,7 @@ def index():
     rand_int = requests.get("http://service-3:5000/get/num").text
 
     gen_pass = rand_string + rand_int
-    score = requests.post("http://service-4:5000/post/password", data=gen_pass)
+    score = requests.post("http://service-4:5000/post/password", data=gen_pass).json()
 
     pass_record = Password.query.all()
 
