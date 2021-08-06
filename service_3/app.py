@@ -7,7 +7,7 @@ def gen_rand_num():
     return str(random.randint(1,99)).zfill(2)
 
 @app.route("/get/num")
-def get_string():
+def get_num():
     return gen_rand_num()
 
 if __name__ == "__main__":
