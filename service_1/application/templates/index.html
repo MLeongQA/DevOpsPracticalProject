@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <h2>Passwords</h2>
+    <hr>
+    <br>
+    {% for password in pass_record %}
+    <div class="profile">
+        {{ password.id }} | {{ password.password }} | {{ password.pass_score }}
+        <br>
+        <hr>
+    </div>
+    {% endfor %}
+
+{% endblock body %}
