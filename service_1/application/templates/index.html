@@ -5,10 +5,14 @@
     <hr>
     <a href="{{  url_for('create')  }}">Generate Password</a>
     <hr>
+    <strong>ID | Password | Score | Usage</strong>
+    <hr>
     <br>
     {% for password in pass_record %}
     <div class="profile">
-        {{ password.id }} | {{ password.password }} | {{ password.pass_score }}
+        {{ password.id }} | {{ password.password }} | {{ password.pass_score }} | {{ password.usage}} |
+        <a href="{{  url_for('update', id=password.id)  }}">Update</a>|
+        <a href="{{  url_for('delete', id=password.id)  }}">Delete</a>
         <br>
         <hr>
     </div>

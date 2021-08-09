@@ -1,2 +1,6 @@
 zxcvbn-python
 flask
+flask-testing
+requests
+requests-mock
+pytest
