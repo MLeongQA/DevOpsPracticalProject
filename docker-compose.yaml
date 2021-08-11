@@ -20,8 +20,6 @@ services:
       DATABASE_URI:
       SECRET_KEY:
     restart: on-failure
-    env_file:
-      .env
 
   service-2:
     container_name: "service-2"
