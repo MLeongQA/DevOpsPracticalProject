@@ -22,7 +22,6 @@ if [ -z "$(docker-compose --version 2> /dev/null)"]; then
     sudo chmod +x /usr/local/bin/docker-compose
 fi
 
-sudo groupadd docker
 sudo usermod -aG docker $USER 
 newgrp docker
 sudo systemctl restart docker
