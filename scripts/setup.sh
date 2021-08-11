@@ -8,8 +8,6 @@ sudo apt-get install curl jq -y software-properties-common
 sudo apt-add-repository -y --update ppa:ansible/ansible
 sudo apt-get install -y ansible
 
-sudo apt-get install python3 python3-pip python3-venv
-
 if [ -z "$(docker --version 2> /dev/null)"]; then
     curl https://get.docker.com | sudo bash
     sudo usermod -aG docker $USER 
