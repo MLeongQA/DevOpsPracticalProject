@@ -32,3 +32,29 @@ def create():
 
     else:
         return render_template("create.html", form=pass_form)
+
+@app.route("/update/<int:id>")
+def update(id):
+    password = Password.query.get(id)
+
+    if password.usage == "Not in Use":
+        password.usage = "In Use"
+    else:
+        password.usage = "Not in Use"
+
+    db.session.add(password)
+    db.session.commit()
+
+    return redirect(url_for("index"))
+
+@app.route("/delete/<int:id>")
+def delete(id):
+    password = Password.query.get(id)
+    #password_list = Password.query.filter(id==id).delete()
+    
+    db.session.delete(password) 
+    db.session.commit()
+
+    return redirect(url_for("index"))
+
+    

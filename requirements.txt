@@ -1,0 +1,10 @@
+flask
+flask-testing
+requests
+requests-mock
+pytest
+pytest-cov
+zxcvbn-python
+flask-sqlalchemy
+flask-wtf
+wtforms
