@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h2>Generate Password</h2>
+<hr>
+<form method='POST' action=''>
+    {{ form.hidden_tag() }}
+    <a href="{{  url_for('index')  }}">Home</a>
+    <br>
+    <hr>
+    {{ form.pass_length.label }} {{ form.pass_length }}
+    <br>
+{{ form.submit_length }}
+
+</form>
+{% endblock body %}
