@@ -15,7 +15,7 @@ class TestBase(TestCase):
             SQLALCHEMY_DATABASE_URI= "sqlite:///test.db",
             SQLALCHEMY_TRACK_MODIFICATIONS = False,
             WTF_CSRF_ENABLED = False,
-            SECRET_KEY = getenv("SECRET_KEY")
+            SECRET_KEY = "TEST_SECRET_KEY"
         )
         
         return app

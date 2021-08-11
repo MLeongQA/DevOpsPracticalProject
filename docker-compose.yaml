@@ -18,7 +18,7 @@ services:
     build: service_1
     environment:
       DATABASE_URI:
-    env_file: .env
+      SECRET_KEY:
 
   service-2:
     container_name: "service-2"
