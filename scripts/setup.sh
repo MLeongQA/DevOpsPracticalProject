@@ -10,7 +10,10 @@ sudo apt-get install -y ansible
 
 if [ -z "$(docker --version 2> /dev/null)"]; then
     curl https://get.docker.com | sudo bash
+    sudo groupadd docker
     sudo usermod -aG docker $USER 
+    newgrp docker
+    sudo systemctl restart docker
 fi
 
 if [ -z "$(docker-compose --version 2> /dev/null)"]; then
@@ -19,5 +22,7 @@ if [ -z "$(docker-compose --version 2> /dev/null)"]; then
     sudo chmod +x /usr/local/bin/docker-compose
 fi
 
+sudo groupadd docker
+sudo usermod -aG docker $USER 
 newgrp docker
 sudo systemctl restart docker
