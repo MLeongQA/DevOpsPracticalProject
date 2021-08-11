@@ -10,10 +10,8 @@ sudo apt-get install -y ansible
 
 if [ -z "$(docker --version 2> /dev/null)"]; then
     curl https://get.docker.com | sudo bash
-    sudo groupadd docker
     sudo usermod -aG docker $USER 
-    newgrp docker
-    sudo systemctl restart docker
+    
 fi
 
 if [ -z "$(docker-compose --version 2> /dev/null)"]; then
@@ -21,7 +19,3 @@ if [ -z "$(docker-compose --version 2> /dev/null)"]; then
     sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
     sudo chmod +x /usr/local/bin/docker-compose
 fi
-
-sudo usermod -aG docker $USER 
-newgrp docker
-sudo systemctl restart docker
