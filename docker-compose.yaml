@@ -19,6 +19,7 @@ services:
     environment:
       DATABASE_URI:
       SECRET_KEY:
+    restart: on-failure
     env_file:
       .env
 
@@ -39,9 +40,9 @@ services:
 
   mysql:
     container_name: "mysql"
-    image: mysql
+    image: mysql:5.7
     environment:
-      MYSQL_DATABASE: root
+      MYSQL_DATABASE: password
       MYSQL_ROOT_PASSWORD: root
     volumes:
       - mysqldata:/var/lib/mysql
