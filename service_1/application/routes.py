@@ -5,7 +5,6 @@ from . import app, db
 from .models import Password
 from .forms import PassLengthForm
 
-#testing for jenkins
 @app.route("/")
 @app.route("/index")
 def index():
