@@ -4,10 +4,11 @@ from os import getenv
 
 app = Flask(__name__)
 app.config.update(
-    SQLAlchemy_DATABASE_URI=getenv("DATABASE_URI"),
-    SECRET_KEY=getenv("SECRET_KEY")
+    #SQLALCHEMY_DATABASE_URI=getenv("DATABASE_URI"),
+    SECRET_KEY=getenv("SECRET_KEY"),
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
 )
 
 db = SQLAlchemy(app)
 
-from application import routes
+from . import routes
