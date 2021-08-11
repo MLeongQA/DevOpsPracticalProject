@@ -3,5 +3,6 @@
 set -e
 
 docker-compose build --parallel && \
-docker login -u ${DOCKERHUB_CREDENTIALS_USR} -p ${DOCKERHUB_CREDENTIALS_PSW}
-docker-compose push 
+#docker login -u ${DOCKERHUB_CREDENTIALS_USR} -p ${DOCKERHUB_CREDENTIALS_PSW}
+docker login -u mleongqa -p QACTrainee1
+docker-compose push
