@@ -4,6 +4,8 @@ pipeline{
         DATABASE_URI = credentials("DATABASE_URI")
         SECRET_KEY = credentials("SECRET_KEY")
         DOCKERHUB_CREDENTIALS= credentials("DOCKERHUB_CREDENTIALS")
+        MYSQL_DATABASE = credentials("MYSQL_DATABASE")
+        MYSQL_ROOT_PASSWORD = credentials("MYSQL_ROOT_PASSWORD")
     }
     stages{
         stage("Install Dependencies"){

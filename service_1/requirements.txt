@@ -3,3 +3,5 @@ flask-sqlalchemy
 flask-wtf
 wtforms
 requests
+mysqlclient
+cryptography

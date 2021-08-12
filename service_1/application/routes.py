@@ -5,6 +5,7 @@ from . import app, db
 from .models import Password
 from .forms import PassLengthForm
 
+#test
 @app.route("/")
 @app.route("/index")
 def index():
