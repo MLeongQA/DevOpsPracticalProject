@@ -4,6 +4,7 @@ import random, string
 app = Flask(__name__)
 
 string_list = string.ascii_letters
+#string_list = string.ascii_lowercase
 
 @app.route("/post/string", methods=["POST"])
 def post_string():
