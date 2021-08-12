@@ -1,4 +1,5 @@
 [run]
+include = service_1/application/*.py,service_[234]/app.py
 omit = venv/*
 
 [report]
