@@ -118,6 +118,10 @@ The initial ER Diagram is as shown as above. The password ID is used to uniquely
 
 ### Interaction Diagram
 
+![Interaction Diagram](https://i.imgur.com/vBvTFc9.png)
+
+The interaction diagram, as shown above, shows my swarm network, where a load-balancer will direct the user to the VM with the least load. The user is also unable to access each of the VMs outside of the load balancer directly, increasing the security of my network.
+
 ### Services Diagram
 
 ![Services Diagram](https://i.imgur.com/KVOmvDc.png)
