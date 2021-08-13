@@ -67,6 +67,20 @@ The full risk Assessment can be found [here](https://docs.google.com/spreadsheet
 
 ### Project Tracking
 
+Trello was decided as my project tracking app. The diagram can be found [here](https://trello.com/b/J1EhFbkm/password-project-board)
+
+![Trello Board](https://i.imgur.com/eCt4mzA.png)
+
+I have divided my trello board into multiple lists to categorise each task and be able to see the task progress.
+
+- Project Resources: A list of handy resources for my project that can be quickly accessed.
+- User Stories: A collection of stories to document the requirements of my project
+- To Do: A list of tasks that are required to be initalised.
+- In Progress: A list of tasks that have been started and requires completion
+- Completed: A list of tasks that have been completed.
+
+**Update**: The board was changed to implement the CRUD functionality + Form functionality.
+
 ### Analysis of Testing
 
 ## Infrastructure
