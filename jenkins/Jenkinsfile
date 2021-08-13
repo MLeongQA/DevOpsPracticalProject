@@ -33,10 +33,5 @@ pipeline{
                 sh "bash scripts/deploy.sh"
             }
         }
-        stage("XML report"){
-            steps{
-                junit "junit.xml"
-            }
-        }
     }
 }
