@@ -55,6 +55,14 @@ My proposal for this project is to create a password generating website.
 
 ## Architecture
 
+A screenshot of my risk assessment can be found below.
+
+![Risk Assessment](https://i.imgur.com/Kn5YllJ.png)
+
+**Update**: The risk assessment has been updated with potential risks of broken versions being pushed onto github, causing the website not function if built. In response to this, the pipeline was implemented to not process if the build if the unit tests fail.
+
+The full risk Assessment can be found [here](https://docs.google.com/spreadsheets/d/18LOucbo6bNB233hZN950s-zoDuAG8sb8tvt1NYHw6a0/edit?usp=sharing)
+
 ### Risk Assessment
 
 ### Project Tracking
