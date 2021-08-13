@@ -83,6 +83,12 @@ I have divided my trello board into multiple lists to categorise each task and b
 
 ### Analysis of Testing
 
+Testing was a essential part of this project, as a failed product could not be allowed to be built on my Jenkins. Therefore each functionality of each services had to be tested properly.
+
+![Analysis of Testing](https://i.imgur.com/poWIxoi.png)
+
+This testing document was used to keep track of what tests were required to be implemented, as well as listing details on how they were to be tested.
+
 ## Infrastructure
 
 ### CICD Pipeline
