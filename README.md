@@ -146,9 +146,11 @@ onto the dev branch, using Jenkins. Jenkins will then prints out whether the tes
 The code used in the Jenkinsfile for testing are:
 
 >python3 -m venv venv
+>
 >source venv/bin/activate
+>
 >pip3 install -r requirements.txt
-
+>
 >python3 -m pytest --cov --cov-report=term-missing
 
 ### Front-end Development
