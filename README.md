@@ -110,6 +110,10 @@ The steps were as follows:
 
 ![ER Diagram](https://i.imgur.com/6LSYy0d.png)
 
+The initial ER Diagram is as shown as above. The password ID is used to uniquely identify each password, the password field contained the actual password as the string, and the password rating was stored as a integer.
+
+**Update**: The ER diagram was updated to feature the "In Use" column which will identify whether a password is already being utilised or not. 
+
 ![ER Diagram2](https://i.imgur.com/Ap8J8lV.png)
 
 ### Interaction Diagram
