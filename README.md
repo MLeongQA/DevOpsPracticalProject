@@ -106,6 +106,8 @@ The steps were as follows:
 5. Ansible was used to configure the load balancer, swarm manager and it's workers to be ready for the application deployment.
 6. The Jenkins VM deployed the stacks onto each VM.
 
+![Pipeline](https://i.imgur.com/0C5O9Au.png)
+
 ### ER Diagram
 
 ![ER Diagram](https://i.imgur.com/6LSYy0d.png)
