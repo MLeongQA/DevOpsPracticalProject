@@ -87,6 +87,8 @@ I have divided my trello board into multiple lists to categorise each task and b
 
 ### CICD Pipeline
 
+![CICD Diagram]([img]https://i.imgur.com/WZk6oex.png[/img])
+
 ### ER Diagram
 
 ![ER Diagram](https://i.imgur.com/6LSYy0d.png)
