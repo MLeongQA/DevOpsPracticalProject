@@ -138,6 +138,11 @@ The above services diagram shows the front-end (service-1) sending a GET request
 
 ### Unit Testing
 
+Unit testing is used to ensure the back-end of my application was functional and data manipulation in the database was done correctly. Assertions were used to ensure that the correct output was being produced, and requests_mock was used to simulate the interaction of the services. These tests are run automatically after every Git push
+onto the dev branch, using Jenkins. Jenkins will then prints out whether the test succeeded and gave a coverage report noting the percentage of the application that was tested.
+
+![Unit Tests](https://i.imgur.com/exwNqEa.png)
+
 ### Front-end Development
 
 Navigating to port 80 of the load-balancer will bring users to the index page as shown below. The pages are generated using HTML and flask.
