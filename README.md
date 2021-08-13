@@ -142,6 +142,16 @@ The above services diagram shows the front-end (service-1) sending a GET request
 
 ### Points of Improvement
 
+- Improving the aesthetics of the website. Better layouts.
+- In use passwords potentially being censored for security.
+- Explanation of the password score on the site.
+
 ### Authors
 
+Mikito Leong
+
 ### Acknowledgements
+
+- Oliver Nichols
+- Ryan Wright
+- 21JunDevOps2 Course Mates
