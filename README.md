@@ -140,7 +140,7 @@ The above services diagram shows the front-end (service-1) sending a GET request
 
 ### Front-end Development
 
-Navigating to port 80 of the load-balancer will bring users to the index page as shown below:
+Navigating to port 80 of the load-balancer will bring users to the index page as shown below. The pages are generated using HTML and flask.
 
 ![Index](https://i.imgur.com/PS3tla1.png)
 
