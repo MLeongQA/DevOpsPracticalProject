@@ -81,6 +81,11 @@ The full risk Assessment can be found [here](https://docs.google.com/spreadsheet
 
 ### Interaction Diagram
 
+### Services Diagram
+
+![Services Diagram](https://i.imgur.com/KVOmvDc.png)
+![Services Diagram2](https://i.imgur.com/0I9H5T2.png)
+
 ## Development
 
 ### Unit Testing
