@@ -153,6 +153,10 @@ The code used in the Jenkinsfile for testing are:
 >
 >python3 -m pytest --cov --cov-report=term-missing
 
+This installs all the packages required to run the unit tests, and then runs the test in each service. 
+
+A .coveragerc was used so that only the relevant files were tested and excluded lines that were not required to be tested. This also saved having to change directories to each unit test and run them seperately. 
+
 ### Front-end Development
 
 Navigating to port 80 of the load-balancer will bring users to the index page as shown below. The pages are generated using HTML and flask.
