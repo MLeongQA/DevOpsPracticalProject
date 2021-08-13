@@ -143,6 +143,14 @@ onto the dev branch, using Jenkins. Jenkins will then prints out whether the tes
 
 ![Unit Tests](https://i.imgur.com/exwNqEa.png)
 
+The code used in the Jenkinsfile for testing are:
+
+>python3 -m venv venv
+>source venv/bin/activate
+>pip3 install -r requirements.txt
+
+>python3 -m pytest --cov --cov-report=term-missing
+
 ### Front-end Development
 
 Navigating to port 80 of the load-balancer will bring users to the index page as shown below. The pages are generated using HTML and flask.
