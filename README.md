@@ -121,6 +121,11 @@ The initial ER Diagram is as shown as above. The password ID is used to uniquely
 ### Services Diagram
 
 ![Services Diagram](https://i.imgur.com/KVOmvDc.png)
+
+The above services diagram shows the front-end (service-1) sending a GET request to both services-2, and services-3 where the responses would be sent to services-4 to recieve a password rating. Finally all the data would be uploaded onto the mysql database, and service-1 is able to SELECT old entries from the MySQL Database to display all the passwords generated.
+
+**Update**: The services diagram was updated to change the GET request to service-2 into a POST request, to implement the form and CRUD functionality.
+
 ![Services Diagram2](https://i.imgur.com/0I9H5T2.png)
 
 ## Development
