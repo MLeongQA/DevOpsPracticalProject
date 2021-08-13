@@ -26,6 +26,24 @@
 
 ### Objective
 
+The objective of this project is as follows:
+>You are required to create a service-orientated architecture for your application, this application must be composed of at least 4 services that work together.
+
+To go into further detail, the 4 services should be comprised of:
+- A core front-end service that will communicate with the other three services, and input some data into a database.
+- Two back end services that will generate a random object.
+- One back end service that will generate a object based on the randomly generated object from the other two back end services.
+
+In addition, the project is expected to utilise the following technologies:
+- Kanban Board: Asana or an equivalent Kanban Board
+- Version Control: Git
+- CI Server: Jenkins
+- Configuration Management: Ansible
+- Cloud server: GCP virtual machines
+- Containerisation: Docker
+- Orchestration Tool: Docker Swarm
+- Reverse Proxy: NGINX
+
 ### My Proposition
 
 ## Architecture
