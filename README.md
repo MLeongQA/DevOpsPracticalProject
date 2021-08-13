@@ -46,6 +46,13 @@ In addition, the project is expected to utilise the following technologies:
 
 ### My Proposition
 
+My proposal for this project is to create a password generating website.
+
+- Service 1 : The front end of the application, that will list the history of passwords generated, alongside some additional data such as password strength.
+- Service 2 : Will generate a random set of string.
+- Service 3 : Will generate a random two digit integer.
+- Service 4 : Will produce a password score based on the random generation from service 2 and service 3.
+
 ## Architecture
 
 ### Risk Assessment
