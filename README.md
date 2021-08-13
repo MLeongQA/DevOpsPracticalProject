@@ -140,6 +140,20 @@ The above services diagram shows the front-end (service-1) sending a GET request
 
 ### Front-end Development
 
+Navigating to port 80 of the load-balancer will bring users to the index page as shown below:
+
+![Index](https://i.imgur.com/PS3tla1.png)
+
+From this page, users are able to enter the create page, by clicking on the "Generate Password" button.
+
+![Create](https://i.imgur.com/QOfc76D.png)
+
+Here, the user is prompted on the length of the password length, which is entered in the form.
+
+![Read](https://i.imgur.com/85ep02A.png)
+
+Once the password has been created, it can be seen from the index page. The password can be "updated" to display whether if it's in use or not, and also deleted using "delete"
+
 ## Evaluation
 
 ### Points of Improvement
