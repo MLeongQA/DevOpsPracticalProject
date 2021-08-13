@@ -11,7 +11,7 @@
   - [Analysis of Testing](#Analysis)
 - [Infrastructure](#Infrastructure)
   - [CICD Pipeline](#CICD-Pipeline)
-  - [ER Diagram](#ER Diagram)
+  - [ER Diagram](#ER-Diagram)
   - [Interaction Diagram](#Interaction)
   - [Services Diagram](#Services)
 - [Development](#Development)
