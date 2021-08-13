@@ -75,6 +75,10 @@ The full risk Assessment can be found [here](https://docs.google.com/spreadsheet
 
 ### ER Diagram
 
+![ER Diagram](https://i.imgur.com/6LSYy0d.png)
+
+![ER Diagram2](https://i.imgur.com/Ap8J8lV.png)
+
 ### Interaction Diagram
 
 ## Development
