@@ -93,7 +93,18 @@ This testing document was used to keep track of what tests were required to be i
 
 ### CICD Pipeline
 
+Continuous Deployment was a neccessity for the project, to allow a smooth and rapid development to build process. The CICD diagram is shown below.
+
 ![CICD Diagram](https://i.imgur.com/WZk6oex.png)
+
+The steps were as follows:
+
+1. Tasks that were set up on the trello board were coded, and uploaded to github.
+2. The Jenkins webhook that is set up, will detect any pushes onto the dev branch, and proceeded to line the pipeline found in the Jenkins file.
+3. The unit tests were ran first, to ensure that the new code does not break the application.
+4. The docker images were built and pushed onto dockerhub. Jenkins credentials was used to handle the dockerhub login information.
+5. Ansible was used to configure the load balancer, swarm manager and it's workers to be ready for the application deployment.
+6. The Jenkins VM deployed the stacks onto each VM.
 
 ### ER Diagram
 
