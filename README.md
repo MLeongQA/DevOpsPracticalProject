@@ -89,6 +89,8 @@ Testing was a essential part of this project, as a failed product could not be a
 
 This testing document was used to keep track of what tests were required to be implemented, as well as listing details on how they were to be tested.
 
+As I would not be able to interact with other services during the unit testing, I implemented requests.mock() onto the unit tests, which would allow me to simulate how the services may interact with each other. Service 1 will also have interaction with the database, making it crucial that the tests function correctly.
+
 ## Infrastructure
 
 ### CICD Pipeline
