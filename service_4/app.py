@@ -11,7 +11,9 @@ def post_password():
     gen_pass = request.data.decode()
 
     results = zxcvbn(gen_pass, user_inputs=char_list)
+    #return jsonify(5)
     return jsonify(results.get('score'))
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
